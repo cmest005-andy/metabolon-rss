@@ -17,7 +17,7 @@ Checking URL #2
 ex: 
 py .\rss_feed_inactivity_checker.py 'https://podcastfeeds.nbcnews.com/dateline-nbc' 0
 
-**Expected result: **
+**Expected result:**
 Error: Please enter required attributes of URL(s) and Days
 
 **Error if at least 2 arguments (url, days) is not given:**
