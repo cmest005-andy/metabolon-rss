@@ -7,7 +7,7 @@
 ex: 
 py .\rss_feed_inactivity_checker.py 'https://podcastfeeds.nbcnews.com/dateline-nbc' 'https://mcsorleys.barstoolsports.com/feed/call-her-daddy' 3
 
-Expected result:
+Expected result:<br />
 Checking URL #1
 {'status': 'Success', 'message': 'Company active within the last 3 days.'}
 Checking URL #2
