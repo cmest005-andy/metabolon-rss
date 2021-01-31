@@ -7,7 +7,7 @@
 ex: 
 py .\rss_feed_inactivity_checker.py 'https://podcastfeeds.nbcnews.com/dateline-nbc' 'https://mcsorleys.barstoolsports.com/feed/call-her-daddy' 3
 
-**Expected result:**
+Expected result:
 Checking URL #1
 {'status': 'Success', 'message': 'Company active within the last 3 days.'}
 Checking URL #2
@@ -17,14 +17,14 @@ Checking URL #2
 ex: 
 py .\rss_feed_inactivity_checker.py 'https://podcastfeeds.nbcnews.com/dateline-nbc' 0
 
-**Expected result:**
+Expected result:
 Error: Please enter required attributes of URL(s) and Days
 
 **Error if at least 2 arguments (url, days) is not given:**
 ex: 
 py .\rss_feed_inactivity_checker.py 'https://podcastfeeds.nbcnews.com/dateline-nbc'
 
-**Expected result:**
+Expected result:
 Error: Please enter required attributes of URL(s) and Days
 
 **Assumptions:**
