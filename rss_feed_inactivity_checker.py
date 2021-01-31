@@ -69,7 +69,7 @@ def main():
     arg_list = sys.argv[1:]
 
     #Test for arguments
-    if int(len(arg_list)) == 0:
+    if int(len(arg_list)) == 0 or int(len(arg_list)) == 1:
         print('Error: Please enter required attributes of URL(s) and Days')
         sys.exit(0)
 
